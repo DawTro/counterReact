@@ -1,0 +1,5 @@
+.time {
+  display: flex;
+  flex-direction: row;
+  font-size: 3.5em;
+}

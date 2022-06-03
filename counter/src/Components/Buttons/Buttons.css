@@ -1,0 +1,21 @@
+.buttons {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3em;
+}
+.button {
+  display: flex;
+  padding: 5px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+.button:hover {
+  color: black;
+  background-color: white;
+  transition: color 0.2s, background-color 0.2s;
+}
