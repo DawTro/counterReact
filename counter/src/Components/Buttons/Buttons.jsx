@@ -8,18 +8,21 @@ import "./Buttons.css";
 let Buttons = (props) => {
   return (
     <div className="buttons">
-      <div className="button" onClick={props.start}>
+      <button
+        className="button"
+        disabled={props.disabled}
+        onClick={props.start}>
         <BsFillPlayFill className="play" />
-      </div>
-      <div className="button" onClick={props.pause}>
+      </button>
+      <button className="button" onClick={props.pause}>
         <BsPauseFill className="pause" />
-      </div>
-      <div className="button" onClick={props.stop}>
+      </button>
+      <button className="button" onClick={props.stop}>
         <BsStopFill className="stop" />
-      </div>
-      <div className="button" onClick={props.history}>
+      </button>
+      <button className="button" onClick={props.history}>
         <BsChevronDoubleDown className="history" />
-      </div>
+      </button>
     </div>
   );
 };
