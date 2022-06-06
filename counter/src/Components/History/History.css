@@ -1,0 +1,24 @@
+.history-list {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+  /* padding-bottom: 2.5rem; */
+}
+.history-list-on {
+  display: flex;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 1rem;
+}
+.time-list li {
+  list-style-position: inside;
+  font-size: 2rem;
+  padding: 0.5rem 3rem;
+}

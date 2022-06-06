@@ -1,5 +1,6 @@
 .buttons {
   display: flex;
+  padding-bottom: 4rem;
   width: 60%;
   flex-direction: row;
   justify-content: space-around;
@@ -7,7 +8,7 @@
 }
 .button {
   display: flex;
-  font-size: 3em;
+  font-size: 3rem;
   padding: 5px 20px;
   border: 1px solid white;
   border-radius: 5px;

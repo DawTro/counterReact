@@ -1,5 +1,6 @@
 .time {
   display: flex;
   flex-direction: row;
-  font-size: 3.5em;
+  padding: 4rem 0;
+  font-size: 3.5rem;
 }

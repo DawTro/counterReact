@@ -1,7 +1,9 @@
+import "./TitleCounter.css";
+
 let TitleCounter = () => {
   return (
     <div className="title">
-      <h1>Counter</h1>
+      <h1>Stopwatch</h1>
     </div>
   );
 };
