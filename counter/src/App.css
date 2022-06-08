@@ -1,3 +1,12 @@
+[data-theme="white"] {
+  --text-color: white;
+}
+[data-theme="blue"] {
+  --text-color: rgb(63, 0, 189);
+}
+.App {
+  color: var(--text-color);
+}
 .container {
   position: relative;
   width: 800px;
@@ -9,7 +18,7 @@
   border-radius: 20px;
   background-color: rgba(31, 31, 31, 0.8);
   box-shadow: 0 0 1em white;
-  color: white;
+  /* color: yellow; */
 }
 .title h1 {
   font-size: 4rem;

@@ -10,13 +10,14 @@
   display: flex;
   font-size: 3rem;
   padding: 5px 20px;
-  border: 1px solid white;
+  background-color: var(--text-color);
+  border: 1px solid var(--text-color);
   border-radius: 5px;
   cursor: pointer;
   transition: color 0.2s, background-color 0.2s;
 }
 .button:hover {
-  color: white;
+  color: var(--text-color);
   background-color: black;
   transition: color 0.2s, background-color 0.2s;
 }
